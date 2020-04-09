@@ -32,6 +32,18 @@ class Dog(Animal):
         if age > 0:
             self.__set_age(age)
 
+    # 静态方法
+    @staticmethod
+    def get_total():
+        print("staticmethod.....")
+
+
+    # 类方法
+    @classmethod
+    def total_all(dog):
+        print("total_all.....")
+
+
     def get_info(self):
         print("姓名:{},年龄:{}".format(self.name, self.__age))
 
@@ -44,3 +56,5 @@ if __name__ == '__main__':
     dog.get_info()
     dog.eat()
     dog.run()
+    dog.get_total()
+    dog.total_all()

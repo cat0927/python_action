@@ -1,6 +1,8 @@
 # 信息包含 姓名、年龄、身高、体重，是否会Python
 info_list = ["张三", 20, 180, 75, True]
 print("info_list:", info_list)
+print("info_list:{}".format(info_list[1:3]))
+
 del info_list[1]
 print("del_info_list", info_list)
 
@@ -14,6 +16,10 @@ db_info = ("192.168.2.2", 3306, "root", "psd")
 print(db_info)
 for item in db_info:
     print(item)
+
+info = ("one", "two", "three", "four")
+info = (1, 2, 3, 4)
+print(info[1])
 
 print('-------------字典----------------')
 user_info_dist = {"name": "张三", "age": 20, "height": 180, "address": "北京市朝阳区"}
