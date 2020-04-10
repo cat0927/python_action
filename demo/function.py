@@ -1,6 +1,5 @@
 import time
 # import demo.test_1
-from test1.test_1 import new_name
 
 def user_info(name, age, address):
     print("name:", name)
@@ -110,4 +109,3 @@ if __name__ == '__main__':
 
     sum_1(10, 20)
 
-    new_name()
