@@ -1,5 +1,5 @@
 import unittest
-from big_data.cache_demo import _sum
+from python_test.big_data.cache_demo import _sum
 """
  单元测试
 """

@@ -1,6 +1,6 @@
 from queue import Queue, Empty
 from threading import Thread
-from thread.thread_demo import fetch_place, PLACES
+from python_test.thread.thread_demo import fetch_place, PLACES
 import time
 
 """
